@@ -1,13 +1,13 @@
 {
-  "name": "@github/custom-element-element",
+  "name": "@koddsson/number-format-element",
   "version": "0.0.1",
-  "description": "Boilerplate for creating a custom element.",
-  "main": "dist/custom-element.js",
-  "module": "dist/custom-element.js",
+  "description": "Super simple number format element",
+  "main": "dist/number-format-element.js",
+  "module": "dist/number-format-element.js",
   "type": "module",
-  "types": "dist/custom-elements.d.ts",
+  "types": "dist/number-format-element.d.ts",
   "license": "MIT",
-  "repository": "github/custom-element-boilerplate",
+  "repository": "koddsson/number-format-element",
   "files": [
     "dist"
   ],
@@ -18,8 +18,7 @@
     "build": "tsc",
     "pretest": "npm run build",
     "test": "echo 'There are no tests, yet'",
-    "prepublishOnly": "npm run build",
-    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'"
+    "prepublishOnly": "npm run build"
   },
   "prettier": "@github/prettier-config",
   "devDependencies": {
