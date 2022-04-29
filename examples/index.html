@@ -3,13 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <title>custom-element demo</title>
+
+<style>
+  number-format {
+    display: block; 
+  }
+</style>
   </head>
   <body>
-    <custom-element></custom-element>
+    <number-format>3</number-format>
+    <number-format>31</number-format>
+    <number-format>314</number-format>
+    <number-format>3_141</number-format>
+    <number-format>31_415</number-format>
+    <number-format>314_159</number-format>
+    <number-format>3_141_592</number-format>
+    <number-format>31_415_926</number-format>
+    <number-format>314_159_265</number-format>
+    <number-format>314_1592_653</number-format>
+    <number-format>3141_5926_535</number-format>
+    <number-format>-3_141</number-format>
+    <number-format max="100">3_141</number-format>
+    <number-format max="10000">31_415</number-format>
 
     <script type="module">
       // import 'https://unpkg.com/@github/custom-element-boilerplate@latest/dist/custom-element.js'
-      import '../dist/custom-element.js'
+      import '../dist/number-format-element.js'
     </script>
   </body>
 </html>
